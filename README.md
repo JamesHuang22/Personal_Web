@@ -1,15 +1,12 @@
 # James Huang Personal website
 
 
-Personal website built using ReactJS and Bulma as the CSS framework. [Live here](https://jcoelho93.netlify.com)
-
-The personal information on the website is populated from a json file that follows the [JSON Resume](https://jsonresume.org/) open source standard.
 
 ## Build
 
 1. Clone the repo:
 ```console
-> git clone https://github.com/jcoelho93/personal-website.git
+
 ```
 
 2. Update the *resume.json* with your personal information (check [JSON Resume](https://jsonresume.org/))
