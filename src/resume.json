@@ -59,6 +59,33 @@
       "endDate": "2021-05-07",
       "summary": "Full Stack Software development for the No. 1 Satellite Internet Service Provider.",
       "highlights": []
+    },
+    {
+      "company": "University of Maryland-College Park",
+      "position": "Computer Science Major with Statistics Minor",
+      "website": "https://umd.edu",
+      "startDate": "2020-05-20",
+      "endDate": "2020-05-20",
+      "summary": "Graduate from UMD with degree in Computer Science and Statistics",
+      "highlights": []
+    },
+    {
+      "company": "UMD CS Department",
+      "position": "Computer Science Major with Statistics Minor",
+      "website": "https://umd.edu",
+      "startDate": "2018-08-20",
+      "endDate": "2020-05-20",
+      "summary": "Undergradute Teaching Assistant for CMSC250-Discrete Structure",
+      "highlights": []
+    },
+    {
+      "company": "University of Maryland-College Park",
+      "position": "Computer Science Major with Statistics Minor",
+      "website": "https://umd.edu",
+      "startDate": "2016-08-20",
+      "endDate": "2020-05-20",
+      "summary": "Start studying Computer Science at UMD",
+      "highlights": []
     }
   ],
   "education": [
