@@ -39,7 +39,7 @@
       "website": "https://www.latch.com",
       "startDate": "2022-01-18",
       "endDate": "",
-      "summary": "The first IPO startup in my professional path, working for the future of Smart Home.",
+      "summary": "The first IPO startup in my professional path, work for the future of the Smart Home and Smart Access",
       "highlights": []
     },
     {
@@ -131,6 +131,16 @@
     },
     {
       "name": "gRPC",
+      "level": "Intermediate",
+      "keywords": ["Framework"]
+    },
+    {
+      "name": "Spring Boot",
+      "level": "Intermediate",
+      "keywords": ["Framework"]
+    },
+    {
+      "name": "Guice",
       "level": "Intermediate",
       "keywords": ["Framework"]
     },

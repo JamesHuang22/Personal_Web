@@ -36,6 +36,7 @@ function Timeline() {
                       year: "numeric"
                     })}
                     company={item.company}
+                    website = {item.website}
                     summary={item.summary}
                   />
                 );
