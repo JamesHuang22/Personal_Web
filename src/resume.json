@@ -95,16 +95,6 @@
   ],
   "skills": [
     {
-      "name": "Git",
-      "level": "Advanced",
-      "keywords": ["Framework"]
-    },
-    {
-      "name": "REST API",
-      "level": "Advanced",
-      "keywords": ["Framework"]
-    },
-    {
       "name": "MySQL",
       "level": "Advanced",
       "keywords": ["Framework"]
