@@ -9,7 +9,7 @@
     "location": {
       "country": "United States",
       "countryCode": "US",
-      "region": "East Coast"
+      "region": "New York City | Washington, D.C."
     },
     "profiles": [
       {
@@ -20,8 +20,8 @@
       },
       {
         "network": "LinkedIn",
-        "username": "Zhiyu Huang",
-        "url": "https://www.linkedin.com/in/zhiyu-huang-201b81bb",
+        "username": "James Huang",
+        "url": "https://www.linkedin.com/in/james-huang-201b81bb",
         "x_icon": "fab fa-2x fa-linkedin"
       },
       {
