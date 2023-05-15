@@ -23,7 +23,7 @@ function AboutMe() {
           {Resume.basics.summary}
         </p>
         <p className = "subtitle is-5 has-text-white has-text-weight-light summary-text">
-          A kid from Wuhan with... <a href="https://www.youtube.com/watch?v=4gi9y3sTrXE"> Mamba Mentality </a>
+          A kid from Wuhan, China with some... <a href="https://www.youtube.com/watch?v=4gi9y3sTrXE"> Mamba Mentality </a>
         </p>
         <div className="container interests">
           <div className="field is-grouped is-grouped-multiline has-text-centered">
