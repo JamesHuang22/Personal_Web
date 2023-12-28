@@ -12,6 +12,8 @@
 > npm run build
 ```
 
+4. Copy/Paste the build directory to the gh-pages branch
+
 You can also test the app with a development server, just run:
 
 ```console

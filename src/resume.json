@@ -103,116 +103,26 @@
     }
   ],
   "skills": [
-    {
-      "name": "MySQL",
-      "level": "Advanced",
-      "keywords": ["Framework"]
-    },
-    {
-      "name": "MongoDB",
-      "level": "Advanced",
-      "keywords": ["Framework"]
-    },
-    {
-      "name": "FastAPI",
-      "level": "Advanced",
-      "keywords": ["Framework"]
-    },
-    {
-      "name": "Flask",
-      "level": "Intermediate",
-      "keywords": ["Framework"]
-    },
-    {
-      "name": "Kubernetes",
-      "level": "Intermediate",
-      "keywords": ["Framework"]
-    },
-    {
-      "name": "Docker",
-      "level": "Intermediate",
-      "keywords": ["Framework"]
-    },
-    {
-      "name": "Angular",
-      "level": "Intermediate",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "gRPC",
-      "level": "Intermediate",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "Spring Boot",
-      "level": "Advanced",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "Guice",
-      "level": "Advanced",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "AWS",
-      "level": "Advanced",
-      "keywords": ["Framework"]
-    },
-    {
-      "name": "GCP",
-      "level": "Intermediate",
-      "keywords": ["Framework"]
-    },
-    {
-      "name": "React",
-      "level": "Basic",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "Java",
-      "level": "Advanced",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "Python",
-      "level": "Advanced",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Basic",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "Ruby",
-      "level": "Intermediate",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "Swift",
-      "level": "Basic",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "Kotlin",
-      "level": "Basic",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Basic",
-      "keywords": ["Software Developer"]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent speaker"
-    },
-    {
-      "language": "Chinese",
-      "fluency": "Native speaker"
-    }
+    {"name": "MySQL", "level": "Advanced", "keywords": ["Framework"]},
+    {"name": "MongoDB", "level": "Advanced", "keywords": ["Framework"]},
+    {"name": "FastAPI", "level": "Advanced", "keywords": ["Framework"]},
+    {"name": "Spring Boot", "level": "Advanced", "keywords": ["Software Developer"]},
+    {"name": "Guice", "level": "Advanced", "keywords": ["Software Developer"]},
+    {"name": "AWS", "level": "Advanced", "keywords": ["Framework"]},
+    {"name": "Java", "level": "Advanced", "keywords": ["Software Developer"]},
+    {"name": "Python", "level": "Advanced", "keywords": ["Software Developer"]},
+    {"name": "Flask", "level": "Intermediate", "keywords": ["Framework"]},
+    {"name": "Kubernetes", "level": "Intermediate", "keywords": ["Framework"]},
+    {"name": "Docker", "level": "Intermediate", "keywords": ["Framework"]},
+    {"name": "Angular", "level": "Intermediate", "keywords": ["Software Developer"]},
+    {"name": "gRPC", "level": "Intermediate", "keywords": ["Software Developer"]},
+    {"name": "GCP", "level": "Intermediate", "keywords": ["Framework"]},
+    {"name": "Ruby", "level": "Intermediate", "keywords": ["Software Developer"]},
+    {"name": "React", "level": "Basic", "keywords": ["Software Developer"]},
+    {"name": "JavaScript", "level": "Basic", "keywords": ["Software Developer"]},
+    {"name": "Swift", "level": "Basic", "keywords": ["Software Developer"]},
+    {"name": "Kotlin", "level": "Basic", "keywords": ["Software Developer"]},
+    {"name": "TypeScript", "level": "Basic", "keywords": ["Software Developer"]}
   ],
   "interests": [
 
