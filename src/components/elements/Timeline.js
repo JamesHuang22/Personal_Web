@@ -1,7 +1,7 @@
 import React from "react";
-import TimelineItem from "./TimelineItem";
-import TimelineHeader from "./TimelineHeader";
 import Resume from "../../resume.json";
+import TimelineHeader from "./TimelineHeader";
+import TimelineItem from "./TimelineItem";
 
 function Timeline() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import MenuItem from "./MenuItem";
 import Resume from "../../resume.json";
+import MenuItem from "./MenuItem";
 
 class NavBar extends React.Component {
   constructor(props) {
