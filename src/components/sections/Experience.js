@@ -6,7 +6,7 @@ function Experience() {
   return (
     <section className="section" id="experience">
       <div className="container">
-        <h1 className="title">Experience</h1>
+        <h1 className="title">Path</h1>
         <Timeline />
       </div>
     </section>

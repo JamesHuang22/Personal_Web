@@ -12,7 +12,7 @@ function Timeline() {
         </span>
       </header>
       <div className="timeline-item">
-        <div className="timeline-marker is-success"></div>
+        <div className="timeline-marker is-dark"></div>
         <div className="timeline-content"></div>
       </div>
       {Resume.work
