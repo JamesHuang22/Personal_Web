@@ -1,6 +1,6 @@
 import React from "react";
-import NavBar from "./NavBar";
 import Resume from "../../resume.json";
+import NavBar from "./NavBar";
 
 function Hero() {
   return (
@@ -10,8 +10,8 @@ function Hero() {
       </div>
       <div className="hero-body">
         <div className="container">
-          <p className="subtitle is-5 has-text-weight-light">I'm a</p>
-          <h1 className="title">{Resume.basics.label}</h1>
+          <p className="subtitle is-5 has-text-weight-light">I'm</p>
+          <h1 className="title">{Resume.basics.name}</h1>
           <h2 className="subtitle">
             {Resume.basics.location.region}, {Resume.basics.location.country}
           </h2>

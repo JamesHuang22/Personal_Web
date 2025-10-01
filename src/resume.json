@@ -2,14 +2,14 @@
   "basics": {
     "name": "James Huang",
     "label": "Software Engineer",
-    "picture": "images/jameshuang.jpg",
-    "x_pictureFallback": "images/jameshuang.jpg",
-    "x_title": "Hey There! Glad you're here",
-    "summary": "Software Engineer with Entrepreneur mindset",
+    "picture": "/images/jameshuang2025.jpg",
+    "x_pictureFallback": "/images/jameshuang2025.jpg",
+    "x_title": "Everything negative – pressure, challenges – is all an opportunity for me to rise.",
+    "summary": "Software Engineer | Entry Level Investor | Learning to be an Entrepreneur",
     "location": {
       "country": "United States",
       "countryCode": "US",
-      "region": "New York City | Washington D.C."
+      "region": "Seattle, WA"
     },
     "profiles": [
       {
@@ -33,31 +33,32 @@
     ]
   },
   "work": [
+
+    {
+      "company": "Amazon",
+      "position": "Engineering",
+      "website": "https://www.aboutamazon.com/",
+      "startDate": "2025-10-06",
+      "endDate": "",
+      "summary": "Start grinding and learning more in Big Tech.",
+      "highlights": []
+    },
     {
       "company": "Level Home",
-      "position": "Software Engineer",
-      "website": "https://level.co/multifamily/",
+      "position": "SeniorSoftware Engineer",
+      "website": "https://level.co/",
       "startDate": "2023-09-05",
       "endDate": "",
-      "summary": "Level raised its Series C of $100M recently. I worked on the backend development of Level Home M, a B2B SaaS solution designed for the multi-family industry, securing a pivotal retail partnership with Apple.",
+      "summary": "Worked on backend development for Level B2B SaaS platform.",
       "highlights": []
     },
     {
       "company": "Latch",
       "position": "Software Engineer",
-      "website": "https://www.latch.com",
+      "website": "https://www.bloomberg.com/news/articles/2021-01-25/real-estate-software-company-latch-to-merge-with-tishman-spac",
       "startDate": "2022-01-18",
       "endDate": "2023-09-01",
       "summary": "The first IPO startup in my professional path, I worked on the backend development of LatchOS, a full-building B2B SaaS platform.",
-      "highlights": []
-    },
-    {
-      "company": "fusionSpan",
-      "position": "Software Application Engineer",
-      "website": "https://www.fusionspan.com",
-      "startDate": "2021-05-17",
-      "endDate": "2022-01-07",
-      "summary": "Designed and implemented Elastic Search product, provided cloud data integration solution for non-profit clients.",
       "highlights": []
     },
     {
@@ -65,7 +66,7 @@
       "position": "Software Engineer",
       "website": "https://www.hughes.com",
       "startDate": "2020-08-17",
-      "endDate": "2021-05-07",
+      "endDate": "2021-12-01",
       "summary": "Full Stack Software development for the No. 1 Satellite Internet Service Provider.",
       "highlights": []
     },
@@ -85,6 +86,24 @@
       "startDate": "2018-08-17",
       "endDate": "2018-12-07",
       "summary": "Undergradute Teaching Assistant for CMSC250-Discrete Structure",
+      "highlights": []
+    },
+    {
+      "company": "University Of Maryland - College Park",
+      "position": "",
+      "website": "https://umd.edu/",
+      "startDate": "2016-08-17",
+      "endDate": "2020-05-17",
+      "summary": "Undergradute at University Of Maryland - College Park",
+      "highlights": []
+    },
+    {
+      "company": "Random Street in Wuhan, China",
+      "position": "A Kid from Wuhan",
+      "website": "",
+      "startDate": "2013-08-17",
+      "endDate": "2016-05-17",
+      "summary": "A random kid in Wuhan, while was living in streets.",
       "highlights": []
     }
   ],

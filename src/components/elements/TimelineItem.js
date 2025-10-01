@@ -2,7 +2,7 @@ import React from "react";
 
 function TimelineItem(props) {
   return (
-    <div className="timeline-item is-success">
+    <div className="timeline-item is-dark">
       <div className="timeline-marker is-image is-32x32">
         <img src="" alt="" />
       </div>
