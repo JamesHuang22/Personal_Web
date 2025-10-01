@@ -1,10 +1,10 @@
 import React from "react";
-import Badge from "../elements/Badge";
 import Resume from "../../resume.json";
+import Badge from "../elements/Badge";
 
 function AboutMe() {
   return (
-    <section className="section has-background-link" id="aboutMe">
+    <section className="section has-background-black" id="aboutMe">
       <div className="container has-text-centered">
         <figure className="image container is-180x180">
           <img
@@ -23,7 +23,7 @@ function AboutMe() {
           {Resume.basics.summary}
         </p>
         <p className = "subtitle is-5 has-text-white has-text-weight-light summary-text">
-          A kid from Wuhan, China with some... <a href="https://www.youtube.com/watch?v=4gi9y3sTrXE"> Mamba Mentality </a>
+          A kid from Wuhan with some <a href="https://www.youtube.com/watch?v=4gi9y3sTrXE" className="has-text-white" style={{textDecoration: 'underline'}}>Mamba Mentality</a>
         </p>
         <div className="container interests">
           <div className="field is-grouped is-grouped-multiline has-text-centered">

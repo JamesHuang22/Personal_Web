@@ -1,7 +1,7 @@
 import React from "react";
-import TimelineItem from "./TimelineItem";
-import TimelineHeader from "./TimelineHeader";
 import Resume from "../../resume.json";
+import TimelineHeader from "./TimelineHeader";
+import TimelineItem from "./TimelineItem";
 
 function Timeline() {
   return (
@@ -12,7 +12,7 @@ function Timeline() {
         </span>
       </header>
       <div className="timeline-item">
-        <div className="timeline-marker is-success"></div>
+        <div className="timeline-marker is-dark"></div>
         <div className="timeline-content"></div>
       </div>
       {Resume.work
