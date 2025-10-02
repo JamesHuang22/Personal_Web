@@ -1,27 +1,26 @@
-import React, { Component } from "react";
-import Header from "./components/structure/Header";
-import Content from "./components/structure/Content";
-import Footer from "./components/structure/Footer";
-import Resume from "./resume.json";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import PathPage from './pages/PathPage';
+import './App.css';
 
-class App extends Component {
-  componentDidMount() {
-    document.title = [
-      Resume.basics.name,
-      Resume.basics.label,
-      [Resume.basics.location.region, Resume.basics.location.country].join(", ")
-    ].join(" | ");
-  }
-
-  render() {
-    return (
-      <div>
-        <Header />
-        <Content />
-        <Footer />
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <NavBar />
+        <main>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/path" element={<PathPage />} />
+          </Routes>
+        </main>
       </div>
-    );
-  }
+    </Router>
+  );
 }
 
 export default App;
