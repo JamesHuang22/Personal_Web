@@ -38,13 +38,6 @@ function NavBar() {
               Home
             </Link>
             <Link 
-              to="/about" 
-              className={`navbar-item ${isActive('/about') ? 'is-active' : ''}`}
-              onClick={() => setIsMenuOpen(false)}
-            >
-              About Me
-            </Link>
-            <Link 
               to="/path" 
               className={`navbar-item ${isActive('/path') ? 'is-active' : ''}`}
               onClick={() => setIsMenuOpen(false)}

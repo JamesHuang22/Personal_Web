@@ -58,6 +58,26 @@
   color: #ffffff;
 }
 
+.hero-mambe {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+.mambe-link {
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.6);
+  text-underline-offset: 3px;
+  transition: all 0.3s ease;
+}
+
+.mambe-link:hover {
+  color: #e8e8e8;
+  text-decoration-color: #ffffff;
+  transform: translateY(-1px);
+}
+
 
 .social-links {
   display: flex;
@@ -85,11 +105,20 @@
   box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
 }
 
-.social-links-bottom {
-  position: fixed;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
+.jameshuang-section {
+  min-height: 100vh;
+  background: url('../../public/images/jameshuang.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.social-links-jameshuang {
   display: flex;
   gap: 1rem;
   z-index: 1000;

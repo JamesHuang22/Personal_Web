@@ -7,9 +7,9 @@ function PathPage() {
     <div className="path-page">
       <section className="path-hero">
         <div className="container">
-          <h1>My Professional Path</h1>
+          <h1>On My Way</h1>
           <p className="subtitle">
-            A journey through my career experiences, education, and growth as a software engineer
+            A journey from random streets in Wuhan to World.
           </p>
         </div>
       </section>

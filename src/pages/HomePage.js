@@ -22,25 +22,38 @@ function HomePage() {
                 {basics.location.region}
               </p>
               
+              <p className="hero-mambe">
+                <a 
+                  href="https://www.youtube.com/watch?v=4gi9y3sTrXE" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="mambe-link"
+                >
+                  Motivated by Mamba mentality
+                </a>
+              </p>
+              
             </div>
           </div>
         </div>
       </section>
       
-      <div className="social-links-bottom">
-        {basics.profiles.map((profile, index) => (
-          <a
-            key={index}
-            href={profile.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-link"
-            title={profile.network}
-          >
-            <i className={profile.x_icon}></i>
-          </a>
-        ))}
-      </div>
+      <section className="jameshuang-section">
+        <div className="social-links-jameshuang">
+          {basics.profiles.map((profile, index) => (
+            <a
+              key={index}
+              href={profile.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+              title={profile.network}
+            >
+              <i className={profile.x_icon}></i>
+            </a>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }
