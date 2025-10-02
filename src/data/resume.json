@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "James Huang",
+    "name": "James",
     "label": "Software Engineer",
     "picture": "images/jameshuang.jpg",
     "x_pictureFallback": "images/jameshuang.jpg",
-    "x_title": "Hey There! Glad you're here",
-    "summary": "Software Engineer with Entrepreneur mindset",
+    "x_title": "There are two kinds of pain...",
+    "summary": "Software Engineer | Random Investor | A Street Kid from Wuhan",
     "location": {
       "country": "United States",
       "countryCode": "US",
-      "region": "New York City | Washington D.C."
+      "region": "Seattle, US"
     },
     "profiles": [
       {
