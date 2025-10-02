@@ -1,73 +1,217 @@
 /* PathPage.css */
 .path-page {
   min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
 }
 
 .path-hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
   color: white;
-  padding: 80px 0;
+  padding: 120px 0;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.path-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.05)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.05)"/><circle cx="50" cy="10" r="0.5" fill="rgba(255,255,255,0.03)"/><circle cx="10" cy="60" r="0.5" fill="rgba(255,255,255,0.03)"/><circle cx="90" cy="40" r="0.5" fill="rgba(255,255,255,0.03)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+  opacity: 0.3;
 }
 
 .path-hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
   font-weight: 700;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(45deg, #ffffff, #e8e8e8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .path-hero .subtitle {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   opacity: 0.9;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
-  line-height: 1.6;
+  line-height: 1.7;
+  position: relative;
+  z-index: 1;
+  color: #e8e8e8;
 }
 
 .timeline-section {
-  padding: 80px 0;
-  background-color: #f8f9fa;
+  padding: 100px 0;
+  background: linear-gradient(180deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
+  position: relative;
 }
 
-/* Additional timeline styles specific to Path page */
+.timeline-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 20% 50%, rgba(44, 62, 80, 0.1) 0%, transparent 50%),
+              radial-gradient(circle at 80% 20%, rgba(52, 73, 94, 0.1) 0%, transparent 50%);
+}
+
+/* Timeline styles */
 .timeline-section .timeline {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 
-.timeline-section .timeline-content {
-  background: white;
-  border-left: 4px solid #3273dc;
-}
-
-.timeline-section .timeline-content h3 a {
-  color: #3273dc;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.timeline-section .timeline-content h3 a:hover {
-  color: #2366d1;
-  text-decoration: underline;
-}
-
-.timeline-section .timeline-marker {
-  background-color: #3273dc;
-  border: 3px solid #f8f9fa;
-  box-shadow: 0 0 0 3px #e1e1e1;
+.timeline-section .timeline-header {
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 .timeline-section .timeline-header .tag {
-  background-color: #3273dc;
+  background: linear-gradient(45deg, #2c3e50, #34495e);
   color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
   font-weight: 600;
+  font-size: 1.1rem;
+  box-shadow: 0 8px 25px rgba(44, 62, 80, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.timeline-section .timeline-header .tag::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  transition: left 0.5s;
+}
+
+.timeline-section .timeline-header .tag:hover::before {
+  left: 100%;
+}
+
+.timeline-section .timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-left: 3rem;
+}
+
+.timeline-section .timeline-marker {
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #2c3e50, #34495e);
+  border: 3px solid #1a1a1a;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(44, 62, 80, 0.3), 0 4px 15px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.timeline-section .timeline-marker.is-success {
+  background: linear-gradient(45deg, #27ae60, #2ecc71);
+  box-shadow: 0 0 0 4px rgba(39, 174, 96, 0.3), 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-section .timeline-content {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.timeline-section .timeline-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, #2c3e50, #34495e);
+  border-radius: 2px 0 0 2px;
+}
+
+.timeline-section .timeline-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.timeline-section .timeline-content h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.timeline-section .timeline-content h3 a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.timeline-section .timeline-content h3 a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(45deg, #2c3e50, #34495e);
+  transition: width 0.3s ease;
+}
+
+.timeline-section .timeline-content h3 a:hover::after {
+  width: 100%;
+}
+
+.timeline-section .timeline-content h3 a:hover {
+  color: #e8e8e8;
+}
+
+.timeline-section .timeline-content .date {
+  color: #b0b0b0;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.timeline-section .timeline-content p {
+  color: #d0d0d0;
+  line-height: 1.6;
+  margin: 0;
   font-size: 1rem;
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
+  .path-hero {
+    padding: 80px 0;
+  }
+  
   .path-hero h1 {
     font-size: 2.5rem;
   }
@@ -79,5 +223,31 @@
   
   .timeline-section {
     padding: 60px 0;
+  }
+  
+  .timeline-section .timeline-item {
+    padding-left: 2rem;
+  }
+  
+  .timeline-section .timeline-content {
+    padding: 1.5rem;
+  }
+  
+  .timeline-section .timeline-content h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .path-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .timeline-section .timeline-item {
+    padding-left: 1.5rem;
+  }
+  
+  .timeline-section .timeline-content {
+    padding: 1rem;
   }
 }

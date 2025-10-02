@@ -18,10 +18,6 @@ function NavBar() {
     <nav className="navbar">
       <div className="container">
         <div className="navbar-brand">
-          <Link to="/" className="navbar-item">
-            <strong>James Huang</strong>
-          </Link>
-          
           <div 
             className={`navbar-burger ${isMenuOpen ? 'is-active' : ''}`}
             onClick={toggleMenu}
@@ -40,13 +36,6 @@ function NavBar() {
               onClick={() => setIsMenuOpen(false)}
             >
               Home
-            </Link>
-            <Link 
-              to="/about" 
-              className={`navbar-item ${isActive('/about') ? 'is-active' : ''}`}
-              onClick={() => setIsMenuOpen(false)}
-            >
-              About Me
             </Link>
             <Link 
               to="/path" 
