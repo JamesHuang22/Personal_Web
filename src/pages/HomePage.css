@@ -13,6 +13,8 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 
 .hero-content {
@@ -107,15 +109,16 @@
 
 .jameshuang-section {
   min-height: 100vh;
-  background: url('../../public/images/jameshuang.jpg');
+  background: #2c2c2c url('../../public/images/jameshuang.jpg');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   padding-bottom: 50px;
+  position: relative;
+  z-index: 1;
 }
 
 .social-links-jameshuang {
@@ -123,8 +126,6 @@
   gap: 1rem;
   z-index: 1000;
 }
-
-
 
 /* Responsive design */
 @media (max-width: 768px) {

@@ -1,9 +1,0 @@
-/* AboutPage.css */
-.about-page {
-  min-height: 100vh;
-  background: url('../../public/images/jameshuang.jpg');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
