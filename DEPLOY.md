@@ -6,7 +6,7 @@ This guide provides step-by-step instructions for deploying the Personal Website
 
 - Node.js and npm installed
 - Git configured with your GitHub credentials
-- Access to the repository: `https://github.com/JamesHuang22/Personal_Web`
+- Access to the repository: `https://github.com/JamesHuang22/me`
 
 ## Deployment Steps
 
